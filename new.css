@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+
+}
+::after,::before
+{
+    box-sizing: inherit;
+}
+#card
+{
+    border: 2px solid red;
+    width: 600px;
+    height: 400px;
+}
+
+#top-section
+{
+    width: 100;
+    height: 50%;
+   border: 2px solid orange;
+}
+#bottom-section
+{
+    width: 100%;
+    height: 50%;
+    border: 2px solid red;
+}
+#bottom-left
+{
+    display: inline-block;
+width: 50%;
+height: 100%;
+border: 2px solid blue;
+background-color: aqua;
+vertical-align: top;
+}
+#bottom-right
+{
+    display: inline-block;
+width: 50%;
+height: 100%;
+border: 2px solid blue;
+background-color: aqua;
+vertical-align: top;
+}
